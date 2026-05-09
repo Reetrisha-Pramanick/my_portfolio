@@ -168,13 +168,25 @@ body , html {
   background-color: #E1E5EE;
 }
 .Project-Section {
-    background-color:lightcyan;
+    
 }
 .amazon-images {
   height: 400px;
   width: 550px;
   padding: 15px;
   gap: 4rem;
+}
+.git {
+  font-size: 20px;
+  font-weight: bold;
+}
+a 
+{
+    text-decoration: none;
+}
+a:hover {
+  color :fuchsia;
+  text-decoration: underline;
 }
 .game-image {
   height: 500px;
