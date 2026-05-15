@@ -167,8 +167,9 @@ body , html {
   background: transparent;
   background-color: #E1E5EE;
 }
-.Project-Section {
-    
+.proj-para
+{
+  font-size: 20px;
 }
 .amazon-images {
   height: 400px;
@@ -188,10 +189,6 @@ a:hover {
   color :fuchsia;
   text-decoration: underline;
 }
-.game-image {
-  height: 500px;
-  width: 100%;
-}
 footer {
   background-color: #b6c9ff;
   font-size: 18px;
@@ -203,8 +200,12 @@ footer {
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-decoration: underline blue;
 }
-#About-project {
+.About-project {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight:bold;
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+.game {
+  height: 300px;
 }
