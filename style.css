@@ -221,39 +221,56 @@ footer {
 .btn:hover{
     background-color: #3730a3;
 }
-.Project-Section{
-    padding: 50px 80px;
+.Project-section {
+    padding: 17px 20px;
 }
-.Project-Section h1{
+
+.Project-section h1 {
     font-size: 35px;
     margin-bottom: 20px;
 }
-.project-card{
+
+.project-card {
     background-color: #f5f5f5;
-    padding: 15px;
+    padding: 25px;
     border-radius: 15px;
-    margin-bottom: 30px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    margin-bottom: 10px;   /* was 25px, slight tightening */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
-.project-card h3{
-    font-size: 30px;
-    margin-bottom: 20px;
+
+.project-card h2,
+.project-card h3 {
+    margin-bottom: 8px;
+    margin-top: 0;          /* prevents top gap inside card */
 }
-.project-card p{
-    font-size: 18px;
-    line-height: 1.7;
+
+.project-card h4 {
+    margin: 12px 0 6px 0;  /* tightens the "My Contributions" gap */
 }
-.project-card ul{
-    padding-left: 25px;
-    line-height: 1.8;
+
+.project-card p {
+    margin: 8px 0;          /* was 10px, reduces stacking */
+    line-height: 1.6;
 }
-.project-images{
+
+.project-card ul {
+    margin: 6px 0 10px 0;  /* balanced top and bottom */
+    padding-left: 20px;
+}
+
+.project-card li {
+    margin-bottom: 4px;
+}
+
+.project-images {
     display: flex;
-    gap: 20px;
+    gap: 5px;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 15px;    /* was 20px */
 }
-.amazon-images{
-    width: 300px;
+
+.amazon-images {
+    height: 90px;
+    width: 100%;
     border-radius: 10px;
 }
