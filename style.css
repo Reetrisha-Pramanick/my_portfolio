@@ -241,36 +241,36 @@ footer {
 .project-card h2,
 .project-card h3 {
     margin-bottom: 8px;
-    margin-top: 0;          /* prevents top gap inside card */
+    margin-top: 0;          
 }
 
 .project-card h4 {
-    margin: 12px 0 6px 0;  /* tightens the "My Contributions" gap */
+    margin: 12px 0 6px 0;  
 }
 
 .project-card p {
-    margin: 8px 0;          /* was 10px, reduces stacking */
+    margin: 8px 0;         
     line-height: 1.6;
 }
 
 .project-card ul {
-    margin: 6px 0 10px 0;  /* balanced top and bottom */
+    margin: 6px 0 10px 0;  
     padding-left: 20px;
 }
 
 .project-card li {
     margin-bottom: 4px;
 }
-
 .project-images {
     display: flex;
-    gap: 5px;
+    gap: 8px;
     flex-wrap: wrap;
-    margin-bottom: 15px;    /* was 20px */
+    margin-bottom: 10px;   
 }
-
-.amazon-images {
-    height: 90px;
-    width: 100%;
+.project-images img{
+    width: 500px;
+    height: 400px;
+    object-fit: contain;
     border-radius: 10px;
+    background-color: #fff;
 }
