@@ -3,6 +3,7 @@ body , html {
     padding: 0;
     flex-wrap: wrap; /* makes it responsive on small screens */
     border: border-box;
+     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .header {
   background-color: #b6c9ff;
@@ -26,10 +27,6 @@ body , html {
 
 .header {
   animation: glow 2s infinite;
-}
-
-.header h3 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .header h3:hover {
   text-decoration: underline;
@@ -83,7 +80,6 @@ body , html {
 }
 .portfolio-Message p {
   font-size: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
   text-shadow: 4px 4px 4px rgba(0,0,0,0.3);
 }
 .portfolio-button {
@@ -134,7 +130,6 @@ body , html {
    font-size: 1.4rem;
 }
 .message1 , .message2{
-  font-family: Georgia, 'Times New Roman', Times, serif;
    z-index: 2;
 }
 .Resume{
@@ -144,17 +139,17 @@ body , html {
   align-items: center;
   overflow: hidden;
 }
-.Resume-btn {
+.btn {
   background-color:cornflowerblue;
   font-weight: bold;
   font-size: 16px;
   padding: 13px 15px;
   margin: 20px;
 }
-.Resume-btn a{
+.btn a{
   text-decoration: none;
 }
-.Resume-btn:hover {
+.btn:hover {
   border-radius: 25px;
 }
 
@@ -186,7 +181,6 @@ a
     text-decoration: none;
 }
 a:hover {
-  color :fuchsia;
   text-decoration: underline;
 }
 footer {
@@ -197,15 +191,18 @@ footer {
   justify-content: space-evenly;
 }
 .Project-Section h3{
-  font-family: Georgia, 'Times New Roman', Times, serif;
   text-decoration: underline blue;
 }
 .About-project {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+ 
   font-weight:bold;
   font-size: 1.3rem;
   text-decoration: underline;
 }
 .game {
   height: 300px;
+}
+.exp {
+  margin: 8px;
+  font-size: 20px;
 }
